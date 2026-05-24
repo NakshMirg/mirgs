@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins';
+}
+
+.a {
+    border-bottom: 2px dashed yellow;
+    font-size: 64px;
+    /* font-weight: bold; */
+}
+
+
+#mainHeading {
+    margin: 20px 0px;
+
+}
+
+#secheading {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 15px 0px;
+    border-bottom: 2px dashed yellow;
+    /* font-size: 64px; */
+
+}
+
+.hno {
+    color: #f66;
+    border-bottom: 2px dashed yellow;
+}
+
+.peopleList li a {
+    padding: 5px;
+    background-color: blueviolet;
+    display: inline;
+    margin: 5px;
+    color: whitesmoke;
+    /* border-bottom: 2px solid black; */
+}
+
+.peopleList li      {
+    /* text-decoration: none; */
+    color: whitesmoke;
+    font-size: 40px;
+    margin: 15px;
+}
+
+.peopleList li a:visited {
+    color: whitesmoke;
+}
+
+.container {
+    padding: 0px 20px;
+}
+
+.hno2 {
+    color: cornflowerblue;
+    border-bottom: 2px dashed yellow;
+}
+
+.hno3 {
+    color: lightpink;
+    border-bottom: 2px dashed yellow;
+}
+
+
