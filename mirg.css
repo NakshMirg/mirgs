@@ -88,3 +88,28 @@ body::-webkit-scrollbar-thumb:hover {
     background: rgb(195, 255, 0);       /* Color of the thumb */
     border-radius: 6px;        /* Roundness of the thumb */
   }
+
+@media only screen and (max-width: 545px){
+    .a{
+        font-size: 50px
+    }
+    #secheading{
+        font-size: 35px
+    }
+    .peopleList li{
+        font-size: 25px
+    } 
+}
+   
+@media only screen and (min-width: 546px){
+    .a{
+        font-size: 52px
+    }
+    #secheading{
+        font-size: 38px
+    }
+    .peopleList li{
+        font-size: 27px
+    } 
+}
+   
