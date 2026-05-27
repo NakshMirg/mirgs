@@ -12,8 +12,8 @@ body {
 }
 
 .a {
-    border-bottom: 2px dashed yellow;
-    font-size: 64px;
+    /* border-bottom: 2px dashed yellow; */
+    font-size: 10px;
     /* font-weight: bold; */
 }
 
@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (max-width: 545px){
     .a{
-        font-size: 50px
+        font-size: 25px
     }
     #secheading{
         font-size: 35px
@@ -103,7 +103,7 @@ body::-webkit-scrollbar-thumb:hover {
    
 @media only screen and (min-width: 546px){
     .a{
-        font-size: 52px
+        font-size: 40px
     }
     #secheading{
         font-size: 38px
@@ -112,4 +112,146 @@ body::-webkit-scrollbar-thumb:hover {
         font-size: 27px
     } 
 }
-   
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    /* background: #f4f4f4; */
+  }
+
+  /* Navbar */
+  nav {
+    width: 95vw;
+    height: 70px;
+    background: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 25px;
+    color: white;
+    position: sticky;
+    top: 2.5vw;
+    /* margin-top: 2.5vw; */
+    border: 1px solid #036217;
+    border-radius: 20px;
+    box-shadow: 0px 0px 39px 10px #036217; 
+box-shadow: 0px 0px 39px 10px #036217;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* Hamburger Button */
+  .hamburger {
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+
+  /* Animation */
+  .hamburger.active span:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+  }
+
+  /* Menu */
+  /* .menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 220px;
+    background: #333;
+    display: none;
+    flex-direction: column; */
+  /* } */
+
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .menu a:hover {
+    background: rgb(29, 28, 28);
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  nav {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  /* Optional: push logo slightly right */
+  .logo {
+    margin-left: 10px;
+  }
+
+  .menu {
+    position: absolute;
+    top: calc(70px + 1.5vw);
+    left: 0;
+    width: 220px;
+    height: calc(100vh - 70px - 7vw);
+    overflow: scroll;
+    background: black;
+    display: none;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 39px 10px #036217; 
+    box-shadow: 0px 0px 39px 10px #036217;
+    align-items: center;
+  }
+
+  body{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .every{
+      width: 95vw;
+      margin-top: 7vw;
+  }
+
+  .divider{
+      width: 90%;
+      height: 1px;
+      background-color: grey;
+      /* display: block */
+  }
