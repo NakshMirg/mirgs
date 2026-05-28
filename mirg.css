@@ -260,6 +260,7 @@ box-shadow: 0px 0px 39px 10px #036217;
 
   #menu a:first-child{
       background-color: rgba(255, 0, 0, 0.719);
+      
   }
 
   #menu a:nth-child(2), #menu a:nth-child(8), #menu a:nth-child(13) {
