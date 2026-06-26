@@ -266,3 +266,71 @@ box-shadow: 0px 0px 39px 10px #036217;
   #menu a:nth-child(2), #menu a:nth-child(8), #menu a:nth-child(13), #menu a:nth-child(17), #menu a:nth-child(18), #menu a:nth-child(19), #menu a:nth-child(20) {
       background-color: blueviolet;
   }
+  
+  .one{
+    height: 250px;
+  }
+
+  .two{
+    height: 200px;
+  }
+
+  .three{
+    height: 200px;
+  }
+
+  .four{
+    height: 200px;
+  }
+
+  .five{
+    height: 300px;
+  }
+
+  .six{
+    height: 200px;
+  }
+
+  .seven{
+    height: 200px;
+  }
+
+  .eight{
+    height: 200px;
+  }
+
+  .nine{
+    height: 200px;
+  }
+
+  .ten{
+    height: 200px;
+  }
+
+  .eleven{
+    height: 200px;
+  }
+
+  .twelve {
+    height: 400px;
+  }
+
+  .thirteen{
+    height: 300px;
+  }
+
+  .fourteen{
+    height: 300px;
+  }
+
+  .fifteen{
+    height: 300px;
+  }
+
+  .sixteen{
+    height: 200px;
+  }
+
+  .seventeen{
+    height: 300px;
+  }
